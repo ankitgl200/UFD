@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz & Debate(Extempore)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo">
+                <img src="btkit logo.png" alt="clg logo" class="logo-img">
+                <span>BTKIT Dwarahat</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#prizes">Prizes</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#quiz">Quizzes</a></li>
+            </ul>
+            <button class="menu-toggle">☰</button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <h1 class="name">BTKIT Dwarahat</h1>
+        <h3>celebrating</h3>
+        <h1 class="foundation-title">Uttarakhand Foundation Day</h1>
+        <h2 class="competition-title">Quiz And Debate(Extempore) Competition 2025</h2>
+        <p>Test Your Knowledge, Showcase Your Brilliance!</p>
+        <p class="tagline">"Challenging minds, building champions"</p>
+    </section>
+
+    <!-- Prizes Section -->
+    <section id="prizes" class="prizes">
+        <h2 class="section-title">🏆 Exciting Prizes Await!</h2>
+        <p class="section-desc">At College level</p>
+        <div class="prizes-grid">
+            <div class="prize-card">
+                <div class="prize-icon">🥇</div>
+                <h3>1st Prize</h3>
+                <div class="amount">₹5,000</div>
+                <p>Plus Trophy & Certificate</p>
+            </div>
+            <div class="prize-card">
+                <div class="prize-icon">🥈</div>
+                <h3>2nd Prize</h3>
+                <div class="amount">₹3,000</div>
+                <p>Plus Trophy & Certificate</p>
+            </div>
+            <div class="prize-card">
+                <div class="prize-icon">🥉</div>
+                <h3>3rd Prize</h3>
+                <div class="amount">₹2,000</div>
+                <p>Plus Trophy & Certificate</p>
+            </div>
+        </div>
+        <br>
+        <br>
+        <p class="section-desc">At State level</p>
+        <div class="prizes-grid">
+            <div class="prize-card">
+                <div class="prize-icon">🥇</div>
+                <h3>1st Prize</h3>
+                <div class="amount">₹1,00,000</div>
+                <p>Plus Trophy & Certificate</p>
+            </div>
+            <div class="prize-card">
+                <div class="prize-icon">🥈</div>
+                <h3>2nd Prize</h3>
+                <div class="amount">₹50,000</div>
+                <p>Plus Trophy & Certificate</p>
+            </div>
+            <div class="prize-card">
+                <div class="prize-icon">🥉</div>
+                <h3>3rd Prize</h3>
+                <div class="amount">₹25,000</div>
+                <p>Plus Trophy & Certificate</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="about-grid">
+            <div class="about-image">
+                <div class="brain-emoji">🧠</div>
+                <p class="test-knowledge">Test Your Knowledge</p>
+            </div>
+            <div>
+                <h2>About the Competition</h2>
+                <p>Join the most exciting quiz competition featuring questions across multiple categories including Science, History, Geography, Current Affairs, and Sports.</p>
+                <p>Challenge yourself against the brightest minds and prove your knowledge prowess. This is your opportunity to shine and win incredible prizes!</p>
+                <div class="features">
+                    <div class="feature">
+                        <div class="feature-title">📅 Multiple Rounds</div>
+                        <p>Qualifying & Final rounds</p>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-title">👥 All students Welcome</div>
+                        <p>Open to all students</p>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-title">⏰ Registration Deadline</div>
+                        <p>24th October 2025</p>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-title">🌟 Cash Prize</div>
+                        <p>Top performers get cash prize</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Quiz Section -->
+    <section id="quiz" class="quiz-section">
+        <h2 class="section-title">📝 Take a Practice Quiz</h2>
+        <div class="quiz-grid">
+            <div class="quiz-card">
+                <div class="quiz-icon">🧬</div>
+                <h3>Science Quiz</h3>
+                <p>Test your knowledge on Physics, Chemistry & Biology</p>
+                <div class="quiz-info">
+                    <span>15 Questions</span>
+                    <span>⏱️ 10 mins</span>
+                </div>
+                <a class="quiz-btn" onclick="alert('You Will be redirected to Science Quiz')" href="https://forms.gle/GBGBahazCFDG7wWc8" target="_blank">Start Quiz</a>
+                <!-- <button class="quiz-btn"  id="sciencequiz" onclick="alert('You are being redirected to Mock Science Quizz....')" >Start Quiz</button> -->
+            </div>
+
+            <div class="quiz-card">
+                <div class="quiz-icon">🏛️</div>
+                <h3>History Quiz</h3>
+                <p>Explore world history and Indian heritage</p>
+                <div class="quiz-info">
+                    <span>15 Questions</span>
+                    <span>⏱️ 10 mins</span>
+                </div>
+                <button class="quiz-btn" onclick="startQuiz('History')">Start Quiz</button>
+            </div>
+
+            <div class="quiz-card">
+                <div class="quiz-icon">🌍</div>
+                <h3>Geography Quiz</h3>
+                <p>Challenge yourself with world geography facts</p>
+                <div class="quiz-info">
+                    <span>15 Questions</span>
+                    <span>⏱️ 10 mins</span>
+                </div>
+                <button class="quiz-btn" onclick="startQuiz('Geography')">Start Quiz</button>
+            </div>
+
+            <div class="quiz-card">
+                <div class="quiz-icon">📰</div>
+                <h3>Current Affairs</h3>
+                <p>Stay updated with latest current events</p>
+                <div class="quiz-info">
+                    <span>15 Questions</span>
+                    <span>⏱️ 10 mins</span>
+                </div>
+                <button class="quiz-btn" onclick="startQuiz('Current Affairs')">Start Quiz</button>
+            </div>
+
+            <div class="quiz-card">
+                <div class="quiz-icon">⚽</div>
+                <h3>Sports Quiz</h3>
+                <p>Show your sports knowledge and enthusiasm</p>
+                <div class="quiz-info">
+                    <span>15 Questions</span>
+                    <span>⏱️ 10 mins</span>
+                </div>
+                <button class="quiz-btn" onclick="startQuiz('Sports')">Start Quiz</button>
+            </div>
+
+            <div class="quiz-card">
+                <div class="quiz-icon">📚</div>
+                <h3>General Knowledge</h3>
+                <p>Mix of everything - test your general awareness</p>
+                <div class="quiz-info">
+                    <span>15 Questions</span>
+                    <span>⏱️ 10 mins</span>
+                </div>
+                <button class="quiz-btn" onclick="startQuiz('General Knowledge')">Start Quiz</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; All rights reserved BTKIT Dwarahat | Uttarakhand Foundation Day</p>
+    </footer>
+
+    <script src="script.js">
+    </script>
+</body>
+</html>
