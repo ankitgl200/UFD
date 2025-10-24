@@ -1,3 +1,7 @@
+alert("Hey Students! 🎉 Uttarakhand Foundation Day is here sooner than expected!\n\nTime to get ready, explore the new updates on the site. \nGear up, get excited, and be ready to join the celebrations!");
+
+
+
 const menuToggle = document.querySelector('.menu-toggle');
 const navLinks = document.querySelector('.nav-links');
 
