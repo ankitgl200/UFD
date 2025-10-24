@@ -323,6 +323,9 @@
      border-radius: 0.5rem;
      border-left: 3px solid #ff4625;
  }
+ .feature p{
+    margin-bottom: 0px
+ }
 
  .feature-title {
      font-weight: bold;
@@ -330,6 +333,54 @@
      margin-bottom: 0.5rem;
      font-size: clamp(0.9rem, 1.5vw, 1rem);
  }
+
+ .feature .desc{
+        color: #d1d5db;
+        font-size: clamp(0.8rem, 1.2vw, 0.9rem);
+        font-weight: bold;
+        cursor: pointer;
+ }
+
+ .themes {
+     background: rgba(33, 33, 32, 0.8);
+     border-radius: clamp(15px, 4vw, 20px);
+     padding: clamp(2rem, 5vw, 4rem) clamp(1rem, 3vw, 2rem);
+     max-width: 1220px;
+     margin: 11px;
+ }
+
+ .titletheme{
+    color: #fbbf24;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+ }
+
+ .themes-container {
+  display: flex;
+  justify-content: space-around; /* space between left and right columns */ /* optional, for spacing */
+  flex-wrap: wrap;
+}
+
+.themedetails {
+    padding-left: 100px;
+  margin: 10px;
+}
+
+.themedetails li {
+  margin-bottom: px; /* space between list items */
+  color: #d1d5db;
+  font-size: 22px;
+}
+
+.themdesc{
+    text-align: center;
+    font-style: italic;
+    color: #f89501;
+    font-size: clamp(0.9rem, 1.5vw, 1rem);
+    margin-top: 10px;
+}
 
  .about-image {
      text-align: center;
@@ -581,5 +632,19 @@
      .footer-section h3 {
          font-size: 16px;
      }
- }
 
+     .themes-container {
+  flex-direction: column;
+}
+
+.themedetails {
+padding-left: 20px;
+  margin: 0px;
+}
+
+.themedetails li {
+  margin-bottom: 5px; /* space between list items */
+  color: #d1d5db;
+  font-size: 18px;
+}
+ }
