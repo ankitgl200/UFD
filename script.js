@@ -1,4 +1,4 @@
-// alert("Hey Students! 🎉 Uttarakhand Foundation Day is here sooner than expected!\n\nTime to get ready, explore the new updates on the site. \nGear up, get excited, and be ready to join the celebrations!");
+alert("Hey Students! 🎉 Uttarakhand Foundation Day is here sooner than expected!\n\nTime to get ready, explore the new updates on the site. \nGear up, get excited, and be ready to join the celebrations!");
 
 
 
@@ -35,6 +35,10 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
+
+function contact(){
+    alert('Faculty coordinators:\n\Mr. Jaspreet Singh:8295804400\nDr.R.K Pandey: 8958802870\nMr.Vinod Kumar: 7455066384\n\nStudent coordinators:\nShalini(Final Year):9412996257\nLakshita(Final Year):7078128014\nAnkit(First Year):8218325600\nJahnavi(First Year):8791303949')
+}
 
   // Get current hour
   const now = new Date();
