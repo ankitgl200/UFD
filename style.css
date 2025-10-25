@@ -628,6 +628,11 @@
      font-weight: 500;
  }
 
+ .footer-section .redirectmsg{
+    color: white;
+    margin-top: 20px;
+ }
+
  @media (max-width: 768px) {
      .contact-list {
          gap: 15px;
