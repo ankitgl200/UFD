@@ -356,6 +356,13 @@
     font-weight: bold;
     margin-bottom: 0.5rem;
  }
+ .titletheme2{
+    color: #fa9507;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 0.3rem;
+ }
 
  .themes-container {
   display: flex;
@@ -637,6 +644,20 @@
   flex-direction: column;
 }
 
+
+.titletheme{
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+ }
+.titletheme2{
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+ }
+
 .themedetails {
 padding-left: 20px;
   margin: 0px;
@@ -645,6 +666,6 @@ padding-left: 20px;
 .themedetails li {
   margin-bottom: 5px; /* space between list items */
   color: #d1d5db;
-  font-size: 18px;
+  font-size: 16px;
 }
  }
