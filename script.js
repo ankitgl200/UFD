@@ -48,7 +48,7 @@ function contact(){
   let greeting = "";
   if (hour < 12) {
     greeting = "Good Morning";
-  } else if (hour < 18) {
+  } else if (hour < 16) {
     greeting = "Good Afternoon";
   } else {
     greeting = "Good Evening";
@@ -70,4 +70,5 @@ function contact(){
     const link = `https://wa.me/${contacts[id]}?text=${encodedMessage}`;
     document.getElementById(id).href = link;
   }
+
 
